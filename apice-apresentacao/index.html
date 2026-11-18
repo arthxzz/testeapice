@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ápice: plataforma que conecta desenvolvedores iniciantes a vagas de estágio, com análise de GitHub, trilhas de estudo e verificação automática de projetos.">
+  <title>Ápice | Apresentação do Projeto Final</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="pular" href="#conteudo">Pular para o conteúdo</a>
+
+  <header class="topo">
+    <nav class="nav" aria-label="Navegação principal">
+      <a class="logo" href="#inicio">Ápice</a>
+      <button class="menu-botao" type="button" aria-expanded="false" aria-controls="menu">
+        <span class="sr">Abrir menu</span>
+        <svg width="24" height="24" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      </button>
+      <ul class="menu" id="menu">
+        <li><a href="#problema">Problema</a></li>
+        <li><a href="#recursos">Recursos</a></li>
+        <li><a href="#como-funciona">Como funciona</a></li>
+        <li><a href="#tecnologias">Tecnologias</a></li>
+        <li><a href="#equipe">Equipe</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="conteudo">
+    <section class="hero" id="inicio" aria-labelledby="titulo-hero">
+      <p class="selo">Projeto Final · Desenvolvimento de Sistemas</p>
+      <h1 id="titulo-hero">Do primeiro repositório à primeira vaga de estágio.</h1>
+      <p class="hero-texto">O Ápice conecta desenvolvedores iniciantes a vagas de estágio. A plataforma lê o seu GitHub, mostra o que falta para cada vaga e monta uma trilha de estudos para fechar essa distância.</p>
+      <p class="hero-acoes">
+        <a class="botao botao-primario" href="https://newapice22.onrender.com" target="_blank" rel="noopener">Conhecer a plataforma</a>
+        <a class="botao botao-secundario" href="#recursos">Ver recursos</a>
+      </p>
+      <ul class="numeros" aria-label="Destaques">
+        <li><strong data-contador="4">0</strong> fases por trilha</li>
+        <li><strong data-contador="3">0</strong> commits mínimos por projeto</li>
+        <li><strong data-contador="100" data-sufixo="%">0</strong> gratuito para começar</li>
+      </ul>
+    </section>
+
+    <section class="secao" id="problema" aria-labelledby="titulo-problema">
+      <h2 id="titulo-problema">O problema</h2>
+      <p class="secao-intro">Quem está começando ouve que precisa de experiência para conseguir a primeira vaga, mas não sabe o que estudar nem como provar o que já sabe.</p>
+      <ul class="cartoes cartoes-3">
+        <li>
+          <article class="cartao">
+            <h3>Sem direção</h3>
+            <p>Listas infinitas de cursos, sem saber qual habilidade a vaga realmente pede.</p>
+          </article>
+        </li>
+        <li>
+          <article class="cartao">
+            <h3>Sem prova</h3>
+            <p>O currículo diz "sei React", mas nada mostra isso no código.</p>
+          </article>
+        </li>
+        <li>
+          <article class="cartao">
+            <h3>Sem retorno</h3>
+            <p>Candidaturas sem resposta e nenhuma pista do que melhorar.</p>
+          </article>
+        </li>
+      </ul>
+    </section>
+
+    <section class="secao" id="recursos" aria-labelledby="titulo-recursos">
+      <h2 id="titulo-recursos">Recursos</h2>
+      <ul class="cartoes cartoes-2">
+        <li>
+          <article class="cartao">
+            <h3>Análise do GitHub</h3>
+            <p>Linguagens, dependências e README dos seus repositórios viram um perfil técnico com as habilidades que aparecem no seu código.</p>
+          </article>
+        </li>
+        <li>
+          <article class="cartao">
+            <h3>Trilha de estudos</h3>
+            <p>Fases com etapas, horas estimadas e materiais, montadas a partir do que falta para a vaga ou área escolhida.</p>
+          </article>
+        </li>
+        <li>
+          <article class="cartao">
+            <h3>Verificação automática de projetos</h3>
+            <p>Cada fase termina com um projeto prático. A plataforma confere o repositório e mostra o que já aparece e o que ainda falta.</p>
+          </article>
+        </li>
+        <li>
+          <article class="cartao">
+            <h3>Mentoria e entrevistas</h3>
+            <p>Mentor de carreira e simulador de entrevista para treinar antes do processo seletivo de verdade.</p>
+          </article>
+        </li>
+      </ul>
+    </section>
+
+    <section class="secao" id="como-funciona" aria-labelledby="titulo-como">
+      <h2 id="titulo-como">Como funciona</h2>
+      <ol class="passos">
+        <li><h3>Conecte o GitHub</h3><p>O Ápice lê seus repositórios públicos e monta seu perfil técnico.</p></li>
+        <li><h3>Escolha um objetivo</h3><p>Uma vaga específica ou uma área, como front-end ou back-end.</p></li>
+        <li><h3>Siga a trilha</h3><p>Conclua as etapas de cada fase no seu ritmo.</p></li>
+        <li><h3>Entregue o projeto</h3><p>Envie o repositório da fase e acompanhe a verificação.</p></li>
+      </ol>
+    </section>
+
+    <section class="secao" id="tecnologias" aria-labelledby="titulo-tec">
+      <h2 id="titulo-tec">Tecnologias</h2>
+      <ul class="tags">
+        <li>Node.js</li>
+        <li>Express</li>
+        <li>EJS</li>
+        <li>MySQL</li>
+        <li>API do GitHub</li>
+        <li>Render</li>
+      </ul>
+    </section>
+
+    <section class="secao" id="equipe" aria-labelledby="titulo-equipe">
+      <h2 id="titulo-equipe">Equipe</h2>
+      <p class="secao-intro">Projeto desenvolvido como trabalho de conclusão do curso.</p>
+      <ul class="cartoes cartoes-3">
+        <li>
+          <article class="cartao pessoa">
+            <h3>Seu nome</h3>
+            <p>Desenvolvimento full stack</p>
+          </article>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <p>© <span id="ano">2026</span> Ápice · Projeto Final</p>
+    <p><a href="#inicio">Voltar ao topo</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
